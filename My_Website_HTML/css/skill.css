@@ -1,0 +1,844 @@
+@media (orientation:landscape) and (min-width:1301px) and (max-width:1900px){
+      body{
+          background-color: rgb(216, 216, 220);
+          width: 100vw;
+          margin: 0;
+          padding: 0;
+      }
+      header{
+              position: relative;
+              height: 108px;
+              background: #00C6C2;
+              border: 3px solid #158582;    
+      }
+       .logo img{
+          box-sizing: border-box;
+          position: absolute;
+          width: 118px;
+          height: auto;
+          left: 5%;
+          top: 38px;
+          background: url(image.png);
+          border: 3px solid #158582;
+          filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+          border-radius: 50%;
+      }
+      nav.tab {
+          position: absolute; 
+          bottom: 0px; 
+          right: 20px; 
+        }
+    
+      .tab ul{
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+      }    
+      .tab ul li a{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 8px 12px;
+          background-color: #00C6C2;
+          color: black;
+          font-size: 20px;
+          font-weight: 600;
+          text-decoration: none;
+          border-radius:4px ;
+          transition: background-color 0.3s ease, transform 0.3s ease;
+      }
+      .tab ul li a.active {
+          background: #000; 
+          color: #fff; 
+        }
+      .tab ul li a:hover {
+          background: #158582; 
+          transform: scale(1.05); 
+        } 
+        .section-foreign-language {
+         margin: 0px;
+     }
+     
+     h2 {
+      margin-top: 7%;
+         font-family: sans-serif;
+         color: #324B4A;
+         font-size: 24px;
+         text-align: left;
+         margin-left: 4%;
+     }
+     
+     .language-content {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: flex-start; 
+         margin-left: 3.8%;
+         gap: 2%;      
+     }
+     
+     .language-item {
+         display: flex;
+         align-items: center;
+         justify-content: flex-start; 
+         gap: 10px;
+         max-width: 47%;
+         width: 100%;
+         box-sizing: border-box; 
+         padding: 10px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+         border-radius: 3%;
+     }
+     
+     .lan-img {
+      border: #324B4A solid 3px;
+         width: 90px;
+         height: auto;
+         border-radius: 50%;
+         object-fit: cover;
+     }
+     
+     .language-item p {
+         font-size: 18px;
+         line-height: 1.5;
+         color: #333;
+         font-weight: bold;
+         max-width: 2000px;
+         text-align: left;
+     }      
+  .relevant-skill h1{
+   margin-top: 3%;
+   font-family: sans-serif;
+   color: #324B4A;
+   font-size: 24px;
+   text-align: left;
+   margin-left: 4%;
+} 
+.skill-content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+}
+.skill-item{
+   display: flex;
+   align-items: stretch;
+   max-width: 95%;
+   padding: 0;
+}
+.rel-img{
+   width: 70px;
+   min-height: 70px;
+   border: 2px solid #324B4A;
+   object-fit: cover;
+   display: block;
+   margin-right: 0;
+   margin-left: 4%;
+
+}
+.skill-item p {
+   border: #324B4A solid 2px;
+   background-color: #158582;
+   color: #fff;
+   font-size: 18px;
+   text-align: left;
+   flex-grow: 1; 
+   margin: 0;
+   padding: 10px;
+   box-sizing: border-box; }
+   .mypractices {
+       margin-top: 5%;
+       display: flex; 
+       justify-content: center; 
+       gap: 30%;
+     }
+     .mypractices a img {
+       width: 180px; 
+       border: #324B4A solid 3px;
+       height: auto; 
+       border-radius: 50%;
+     }
+     .section.voluntary-work h1{
+       font-family: sans-serif;
+       color: #324B4A;
+       font-size: 24px;
+       text-align: left;
+       margin-left: 4%;
+   
+     }
+     
+     .section.voluntary-work video {
+        width: 93%;
+        min-height: 200px ;
+       margin: 0px  4%; 
+       margin-bottom: 20px;
+       border: 10px solid #324B4A;
+     }
+    
+} 
+@media (orientation: landscape) and (min-width:800px) and (max-width:1300px){
+   body{ background-color: rgb(216, 216, 220);
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    position: relative;
+    height: 108px;
+    background: #00C6C2;
+    border: 3px solid #324B4A;    
+  }
+  .logo img{
+    display: none;
+  }
+  nav.tab {
+    position: absolute; 
+    bottom: 0px; 
+    right: 20px; 
+  }
+  
+  .tab ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }    
+  .tab ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #00C6C2;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius:4px ;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .tab ul li a.active {
+    background: #000; 
+    color: #fff; 
+  }
+  .tab ul li a:hover {
+    background: #158582; 
+    transform: scale(1.05); 
+  }
+
+  .relevant-skill h1{
+   margin-bottom: 2%;
+   margin-top: 2%;
+   font-family: sans-serif;
+   color: #324B4A;
+   font-size: 24px;
+   text-align: left;
+   margin-left: 4%;
+} 
+.skill-content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+}
+.skill-item{
+   display: flex;
+   align-items: stretch;
+   max-width: 95%;
+   padding: 0;
+}
+.rel-img{
+   width: 70px;
+   min-height: 70px;
+   border: 2px solid #324B4A;
+   object-fit: cover;
+   display: block;
+   margin-right: 0;
+   margin-left: 4%;
+
+}
+.skill-item p {
+   border: #324B4A solid 2px;
+   background-color: #158582;
+   color: #fff;
+   font-size: 18px;
+   text-align: left;
+   flex-grow: 1; 
+   margin: 0;
+   padding: 10px;
+   box-sizing: border-box;
+ }
+   .mypractices {
+       margin-top: 3%;
+       display: flex; 
+       justify-content: center; 
+       gap: 30%;
+     }
+     
+     .mypractices a img {
+       width: 160px; 
+       height: 160px; 
+       border-radius: 50%;
+     }
+     .section.voluntary-work h1{
+       font-family: sans-serif;
+       color: #324B4A;
+       font-size: 24px;
+       text-align: left;
+       margin-left: 4%;
+   
+     }
+     
+     .section.voluntary-work video {
+        width: 90%;
+        min-height: 200px ;
+       margin:  3%; 
+       border: #324B4A solid 10px;
+
+     }
+.section-foreign-language {
+   margin: 0px;
+}
+
+h2 {
+   font-family: sans-serif;
+   color: #324B4A;
+   font-size: 24px;
+   text-align: left;
+   margin-left: 4%;
+}
+
+.language-content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 15px;
+}
+.language-item {
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   border-radius: 3%;
+   display: flex;
+   align-items: center; 
+   justify-content: center; 
+   gap: 10px; 
+   max-width: 90%;
+   width: 100%;
+}
+.lan-img {
+   width: 90px; 
+   height: 90px; 
+   border: 3px solid #324B4A;
+   border-radius: 50%;
+   object-fit: cover; 
+}
+
+.language-item p {
+   font-size: 18px; 
+   line-height: 1.5;
+   color: #333; 
+   max-width: 2000px; 
+   font-weight: 600;
+   text-align: left; 
+   padding: 10px;
+}
+}
+@media (orientation: portrait) and (min-width: 680px) and (max-width: 1000px){
+   body{
+       background-color: rgb(216, 216, 220);
+       width: 100vw;
+       margin: 0;
+       padding: 0;
+   }
+   header{
+           position: relative;
+           height: 108px;
+           background: #00C6C2;
+           border: 3px solid #158582;    
+   }
+    .logo img{
+display: none;
+   }
+   nav.tab {
+       position: absolute; 
+       bottom: 0px; 
+       right: 20px; 
+     }
+ 
+   .tab ul{
+       display: flex;
+       list-style: none;
+       margin: 0;
+       padding: 0;
+   }    
+   .tab ul li a{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 8px 12px;
+       background-color: #00C6C2;
+       color: black;
+       font-size: 20px;
+       font-weight: 600;
+       text-decoration: none;
+       border-radius:4px ;
+       transition: background-color 0.3s ease, transform 0.3s ease;
+   }
+   .tab ul li a.active {
+       background: #000; 
+       color: #fff; 
+     }
+   .tab ul li a:hover {
+       background: #158582; 
+       transform: scale(1.05); 
+     }
+     
+  .relevant-skill h1{
+   font-family: sans-serif;
+   color: #324B4A;
+   font-size: 24px;
+   text-align: left;
+   margin-left: 4%;
+} 
+.skill-content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+}
+.skill-item{
+   display: flex;
+   align-items: stretch;
+   max-width: 95%;
+   padding: 0;
+}
+.rel-img{
+   width: 70px;
+   min-height: 70px;
+   border: 2px solid #324B4A;
+   object-fit: cover;
+   display: block;
+   margin-right: 0;
+   margin-left: 4%;
+
+}
+.skill-item p {
+   border: #324B4A solid 2px;
+   background-color: #158582;
+   color: #fff;
+   font-size: 18px;
+   text-align: left;
+   flex-grow: 1; 
+   margin: 0;
+   padding: 10px;
+   box-sizing: border-box;
+ }
+ .mypractices {
+       margin-top: 5%;
+       display: flex; 
+       justify-content: center; 
+       gap: 20%;
+     }
+     
+     .mypractices a img {
+       width: 120px; 
+       height: 120px;
+       border: #324B4A solid 3px;
+       border-radius: 100%;
+     }
+     .section.voluntary-work h1{
+       font-family: sans-serif;
+       color: #324B4A;
+       font-size: 24px;
+       text-align: left;
+       margin-left: 4%;
+   
+     }
+     
+   .section.voluntary-work video {
+        width: 89.6%;
+        min-height: 200px ;
+       margin: 0px  4%; 
+       border: #324B4A solid 10px;
+     }
+ 
+   .section-foreign-language h2 {
+   font-family: sans-serif;
+   color: #324B4A;
+   font-size: 24px;
+   text-align: left;
+   margin-left: 4%;
+}
+
+.language-content {
+
+   display: flex;
+   justify-content: center; 
+   flex-wrap: wrap; 
+   gap: 2%; 
+}
+
+.language-item {
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   border-radius: 3%;
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   text-align: center; 
+   gap: 10px; 
+   width: 30%; 
+   max-width: 300px;
+   min-width: 200px;
+}
+.lan-img {
+   border: #324B4A solid 3px;
+   width: 90px; 
+   height: 90px; 
+   border-radius: 50%;
+   object-fit: cover; 
+}
+
+.language-item p {
+   font-size: 18px; 
+   line-height: 1.5;
+   color: #333; 
+   padding: 5px;
+   font-weight: 600;
+   font-family: 'inter',sans-serif;
+   max-width: 2000px; 
+   text-align: center; 
+}
+   }
+ @media (orientation: portrait) and (min-width:300px) and (max-width:679px){
+    body{
+       background-color: rgb(216, 216, 220);
+       width: 100vw;
+       margin: 0;
+       padding: 0;
+   }
+   header{
+    position: relative;
+    height: 60px;
+    background: #00C6C2;
+    border: 2px solid #324B4A;    
+ }
+ .logo img{
+    display: none;
+ }
+ nav.tab {
+    position: absolute; 
+    bottom: 0px; 
+    right: 10px; 
+  }
+ 
+ .tab ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }  
+ .tab ul li a{
+   font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    background-color: #00C6C2;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius:4px ;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+ }
+ .tab ul li a.active {
+    background: #000; 
+    color: #fff; 
+  }
+ .tab ul li a:hover {
+    background: #158582; 
+    transform: scale(1.05); 
+  }
+ .relevant-skill h1{
+    font-family: 'inter',sans-serif;
+    color: #324B4A;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 4%;
+ } 
+ .skill-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+ }
+ .skill-item{
+    display: flex;
+    align-items: stretch;
+    max-width: 95%;
+    padding: 0;
+ }
+ .rel-img{
+    width: 70px;
+    min-height: 70px;
+    border: 2px solid #324B4A;
+    object-fit: cover;
+    display: block;
+    margin-right: 0;
+    margin-left: 4%;
+
+ }
+ .skill-item p {
+   font-family: 'inter',sans-serif;
+    border: #324B4A solid 2px;
+    background-color: #158582;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    flex-grow: 1; 
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box; }
+
+.section-foreign-language {
+    margin:0px
+}
+
+h2 {
+   font-family: 'inter',sans-serif;
+    color: #324B4A;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 4%;
+}
+.language-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; 
+}
+
+.language-item {
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   border-radius: 3% ;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 7px; 
+    max-width: 90%;
+    width: 100%;
+}
+.lan-img {
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%; 
+    border: #324B4A solid 2px;
+    object-fit: cover; 
+}
+
+
+.language-item p {
+    font-weight: 600;
+    font-family: 'inter',sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: black; 
+    max-width: 600px; 
+    text-align: center; 
+}
+.mypractices {
+    margin-top: 5%;
+    display: flex; 
+    justify-content: center; 
+    gap: 10%;
+  }
+  
+  .mypractices a img {
+    width: 90px; 
+    height: 90px; 
+    border-radius: 50%;
+  }
+  .section.voluntary-work h1{
+   font-family: 'inter',sans-serif;
+    color: #324B4A;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 4%;
+
+  }
+  
+  .section.voluntary-work video {
+     width: 90%;
+     min-height: 200px ;
+    margin: 0px  4%; 
+    border: solid #324B4A 5px;
+  }
+}
+@media (orientation: landscape) and (min-width: 500px) and (max-width: 799px) {
+    body{
+       background-color: rgb(216, 216, 220);
+       width: 100vw;
+       margin: 0;
+       padding: 0;
+       font-family: 'inter',sans-serif;
+   }
+   header{
+    position: relative;
+    height: 60px;
+    background: #00C6C2;
+    border: 2px solid #324B4A;    
+ }
+ .logo img{
+    display: none;
+ }
+ nav.tab {
+    position: absolute; 
+    bottom: 0px; 
+    right: 10px; 
+  }
+ 
+ .tab ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }  
+ .tab ul li a{
+   font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    background-color: #00C6C2;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius:4px ;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+ }
+ .tab ul li a.active {
+    background: #000; 
+    color: #fff; 
+  }
+ .tab ul li a:hover {
+    background: #158582; 
+    transform: scale(1.05); 
+  }
+  
+ .relevant-skill h1{
+    font-family: sans-serif;
+    color: #324B4A;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 4%;
+ } 
+ .skill-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+ }
+ .skill-item{
+    display: flex;
+    align-items: stretch;
+    max-width: 95%;
+    padding: 0;
+ }
+ .rel-img{
+    width: 70px;
+    min-height: 70px;
+    border: 2px solid #324B4A;
+    object-fit: cover;
+    display: block;
+    margin-right: 0;
+    margin-left: 4%;
+
+ }
+ .skill-item p {
+    border: #324B4A solid 2px;
+    background-color: #158582;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    flex-grow: 1; 
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box; }
+    .mypractices {
+        margin-top: 5%;
+        display: flex; 
+        justify-content: center; 
+        gap: 20%;
+      }
+      
+      .mypractices a img {
+        width: 80px; 
+        height: 80px; 
+        border-radius: 50%;
+      }
+      .section.voluntary-work h1{
+        font-family: sans-serif;
+        color: #324B4A;
+        font-size: 18px;
+        text-align: left;
+        margin-left: 4%;
+    
+      }
+      
+      .section.voluntary-work video {
+         width: 90%;
+         min-height: 200px ;
+         border: #324B4A solid 5px;
+        margin: 0px  4%; 
+      }
+.section-foreign-language {
+    margin: 0px;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #324B4A;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 4%;
+}
+
+.language-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.language-item {
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   padding: 10px ;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px; 
+    max-width: 90%;
+    border-radius: 2%;
+    width: 100%;
+}
+.lan-img {
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+.language-item p {
+    font-size: 12px; 
+    line-height: 1.5;
+    color: black; 
+    font-weight: 600;
+    margin-left: 2%;
+    max-width: 600px; 
+    text-align: left; 
+}
+}
+

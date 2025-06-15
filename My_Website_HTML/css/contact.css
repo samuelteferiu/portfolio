@@ -1,0 +1,502 @@
+@media (orientation:landscape) and (min-width:1301px) and (max-width:1900px){
+        body{
+            background-color: rgb(216, 216, 220);
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column; 
+            min-height: 100vh;
+        }
+        header{
+                position: relative;
+                height: 108px;
+                background: #00C6C2;
+                border: 3px solid #158582;    
+        }
+         .logo img{
+            box-sizing: border-box;
+            position: absolute;
+            width: 118px;
+            height: auto;
+            left: 5%;
+            top: 38px;
+            background: url(image.png);
+            border: 3px solid #158582;
+            filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+            border-radius: 50%;
+        }
+        nav.tab {
+            position: absolute; 
+            bottom: 0px; 
+            right: 20px; 
+          }
+      
+        .tab ul{
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }    
+        .tab ul li a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 12px;
+            background-color: #00C6C2;
+            color: black;
+            font-size: 20px;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius:4px ;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .tab ul li a.active {
+            background: #000; 
+            color: #fff; 
+          }
+        .tab ul li a:hover {
+            background: #158582; 
+            transform: scale(1.05); 
+          }
+          main {
+            display: flex;
+            width: 100%;
+            font-family: 'inter',sans-serif;
+          }
+          
+          .contact-section {
+            padding: 5px;
+            margin-right: 3%;
+            margin-left: 3%;
+            margin-top: 6%;
+            margin-bottom: 3%;
+            font-family: sans-serif;
+          }
+          
+          .contact-section h2 {
+            font-size: 24px;
+            color: #324B4A;
+            margin-bottom: 10px;
+           text-align: left;
+          }
+          
+          .contact-item {
+            display: flex;
+            margin-bottom: 2%;
+            align-items: center;
+          }
+          
+          .contact-info-image {
+            width: 60px;
+            min-height: 120px;
+            align-items: center; 
+            object-fit: cover;
+            border: 2px solid #324B4A;  
+          }
+          
+          .contact-info-text {
+            font-size: 18px;
+            color: white; 
+            line-height: 1.5; 
+            min-height: 110px;
+            background-color: #158582; 
+            padding: 5px; 
+            border: 2px solid #324B4A; 
+            flex-grow: 1; 
+          }
+}  
+ @media (orientation: landscape) and (min-width:800px) and (max-width:1300px){
+    body{ 
+        background-color: rgb(216, 216, 220);
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column; 
+        min-height: 100vh;
+      }
+      header{
+        position: relative;
+        height: 108px;
+        background: #00C6C2;
+        border: 3px solid #324B4A;    
+      }
+      .logo img{
+        display: none;
+      }
+      nav.tab {
+        position: absolute; 
+        bottom: 0px; 
+        right: 20px; 
+      }
+      
+      .tab ul{
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }    
+      .tab ul li a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 12px;
+        background-color: #00C6C2;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius:4px ;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+      }
+      .tab ul li a.active {
+        background: #000; 
+        color: #fff; 
+      }
+      .tab ul li a:hover {
+        background: #158582; 
+        transform: scale(1.05); 
+      }
+      main {
+        display: flex;
+        width: 100%;
+        font-family: 'inter', sans-serif;
+    }
+    
+
+    .contact-section {
+      padding: 5px;
+      margin: 6% 3% 3%;
+      font-family: sans-serif;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, auto);  
+      gap: 3%;
+      align-items: stretch;
+  }
+  .contact-section h2 {
+      font-size: 18px;
+      color: #324B4A;
+      margin-bottom: 10px;
+      text-align: left;
+      grid-column: span 3;  
+      margin-bottom: 20px; 
+  }
+ 
+  .contact-item {
+      display: flex;
+      background-color: #158582;
+      border: solid 2px #324B4A;
+      box-sizing: border-box;
+      padding: 10px;
+      height: 100%;
+      align-items: flex-start;
+      overflow: hidden;
+  }
+  
+  .contact-info-image {
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+      border: 2px solid #324B4A;
+      margin-right: 10px;
+  }
+  
+  .contact-info-text {
+      font-size: 12px;
+      color: white;
+      flex-grow: 1;
+      overflow-y: auto;
+      margin-bottom: 2%;
+      object-fit: cover;
+  }
+}
+@media (orientation: portrait) and (min-width: 680px) and (max-width: 1000px){
+    body{
+        background-color: rgb(216, 216, 220);
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+            position: relative;
+            height: 108px;
+            background: #00C6C2;
+            border: 3px solid #158582;    
+    }
+     .logo img{
+ display: none;
+    }
+    nav.tab {
+        position: absolute; 
+        bottom: 0px; 
+        right: 20px; 
+      }
+  
+    .tab ul{
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }    
+    .tab ul li a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 12px;
+        background-color: #00C6C2;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius:4px ;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .tab ul li a.active {
+        background: #000; 
+        color: #fff; 
+      }
+    .tab ul li a:hover {
+        background: #158582; 
+        transform: scale(1.05); 
+      }
+      main {
+        display: flex;
+        width: 100%;
+        font-family: 'inter', sans-serif;
+      }
+      
+      .contact-section {
+        padding: 5px;
+        margin-right: 3%;
+        margin-left: 3%;
+        font-family: sans-serif;
+      }
+      
+      .contact-section h2 {
+        font-size: 24px;
+        color: #324B4A;
+        margin-bottom: 10px;
+        text-align: left;
+      }
+      
+      .contact-item {
+        display: flex;
+        align-items: top; 
+        margin-bottom: 2%;
+      }
+      
+      .contact-info-image {
+        width: 100px; 
+        height: 100px; 
+        margin-top: 2.5%;
+        object-fit: cover; 
+        border: 2px solid #324B4A;
+      } 
+      .contact-info-text {
+        font-size: 18px;
+        color: white;
+        line-height: 1.5; 
+        background-color: #158582;
+        min-height: 200px;
+        padding: 5px;
+        border: 2px solid #324B4A;
+        flex: 1; 
+      }  
+ }
+ @media (orientation: portrait) and (min-width:300px) and (max-width:679px){
+    body{
+       background-color: rgb(216, 216, 220);
+       width: 100vw;
+       margin: 0;
+       padding: 0;
+      
+   }
+   header{
+    position: relative;
+    height: 60px;
+    background: #00C6C2;
+    border: 2px solid #324B4A;    
+ }
+ .logo img{
+    display: none;
+ }
+ nav.tab {
+    position: absolute; 
+    bottom: 0px; 
+    right: 10px; 
+  }
+ 
+ .tab ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }  
+ .tab ul li a{
+   font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    background-color: #00C6C2;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius:4px ;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+ }
+ .tab ul li a.active {
+    background: #000; 
+    color: #fff; 
+  }
+ .tab ul li a:hover {
+    background: #158582; 
+    transform: scale(1.05); 
+  }
+  main {
+    display: flex;
+    width: 100%;
+    font-family: 'inter',sans-serif;
+  }
+  
+  .contact-section {
+    padding: 5px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    font-family: sans-serif;
+  }
+  
+  .contact-section h2 {
+    font-size: 18px;
+    color: #324B4A;
+    margin-bottom: 10px;
+   text-align: left;
+  }
+  
+  .contact-item {
+    display: flex;
+    margin-bottom: 2%;
+    align-items: center;
+  }
+  
+  .contact-info-image {
+    width: 60px;
+    min-height: 120px;
+    align-items: stretch; 
+    object-fit: cover;
+    border: 2px solid #324B4A;  
+  }
+  
+  .contact-info-text {
+    font-size: 12px;
+    color: white; 
+    line-height: 1.5; 
+    min-height: 110px;
+    background-color: #158582; 
+    padding: 5px; 
+    border: 2px solid #324B4A; 
+    flex-grow: 1; 
+  }   
+}
+ @media (orientation: landscape) and (min-width: 500px) and (max-width: 799px) {
+    body{
+       background-color: rgb(216, 216, 220);
+       width: 100vw;
+       margin: 0;
+       padding: 0;
+   }
+   header{
+    position: relative;
+    height: 60px;
+    background: #00C6C2;
+    border: 2px solid #324B4A;    
+ }
+ .logo img{
+    display: none;
+ }
+ nav.tab {
+    position: absolute; 
+    bottom: 0px; 
+    right: 10px; 
+  }
+ 
+ .tab ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }  
+ .tab ul li a{
+   font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    background-color: #00C6C2;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius:4px ;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+ }
+ .tab ul li a.active {
+    background: #000; 
+    color: #fff; 
+  }
+ .tab ul li a:hover {
+    background: #158582; 
+    transform: scale(1.05); 
+  }
+  main{
+    display: flex;
+    width: 100%;
+    font-family: 'inter',sans-serif;
+  }
+  .contact-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 3%;
+    padding: 5px;
+    margin-right: 3%;
+    margin-left: 3%;
+    font-family: sans-serif;
+    align-items: start;
+  }
+  .contact-section h2{
+    font-size: 18px;
+    color: #324B4A;
+    margin-bottom: 2%;
+    text-align: left;
+    grid-column: span 2;
+  }
+  .contact-item{
+    display: flex;
+    align-items: start;
+  }
+  .contact-info-image{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 2px solid #324B4A;
+    margin-top: 3%;
+  }
+  .contact-info-text{
+    font-size: 12px;
+    color: white;
+    line-height: 1.5;
+    min-height: 180px;
+    background-color: #158582;
+    padding: 5px;
+    border: solid 2px #324B4A;
+    flex: 1;
+  }
+ }
+
+ 
