@@ -486,7 +486,6 @@ body{
     height: auto;
     width: 100%;
     animation: fadeIn 1s ease-in;
-    /* UPDATED: Increased from 108px to 150px */
     scroll-margin-top: 150px;
     margin-top: 25em;
     margin-bottom: 3em;
@@ -595,10 +594,8 @@ body{
   }
 
   .contact-info {
-    background-color: #1a1a1a;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 5px #FFD700, 0 0 10px #FFA500;
   }
 
   .contact-info h3 {
@@ -631,11 +628,8 @@ body{
   }
 
   .follow-icons {
-    background-color: #1a1a1a;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 5px #FFD700, 0 0 10px #FFA500;
-    width: 100%;
   }
 
   .follow-title {
